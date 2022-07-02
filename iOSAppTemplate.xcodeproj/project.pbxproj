@@ -22,11 +22,11 @@
 		3B30BA5D286790F300D8F8C9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3B30BA5C286790F300D8F8C9 /* FirebaseStorage */; };
 		3B30BA5F2867913900D8F8C9 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30BA5E2867913900D8F8C9 /* AuthViewModel.swift */; };
 		3B30BA612867917700D8F8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30BA602867917700D8F8C9 /* AppDelegate.swift */; };
+		3B30BA63286FC4FB00D8F8C9 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B30BA62286FC4FB00D8F8C9 /* Pokemon.swift */; };
 		86619755284D87C1006E7326 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619754284D87C1006E7326 /* ContentView.swift */; };
 		86619757284D87C3006E7326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86619756284D87C3006E7326 /* Assets.xcassets */; };
 		8661975A284D87C3006E7326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86619759284D87C3006E7326 /* Preview Assets.xcassets */; };
 		86619766284D88DE006E7326 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619765284D88DE006E7326 /* AppState.swift */; };
-		86619768284D8929006E7326 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619767284D8929006E7326 /* Model.swift */; };
 		8661976A284D8ACF006E7326 /* MyApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619769284D8ACF006E7326 /* MyApp_iOSApp.swift */; };
 		86619770284D8EA8006E7326 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661976F284D8EA8006E7326 /* HomeViewModel.swift */; };
 		86619772284D8F10006E7326 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619771284D8F10006E7326 /* LaunchView.swift */; };
@@ -45,12 +45,12 @@
 		3B30BA5328678F9100D8F8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B30BA5E2867913900D8F8C9 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		3B30BA602867917700D8F8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B30BA62286FC4FB00D8F8C9 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		8661974F284D87C1006E7326 /* iOSAppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86619754284D87C1006E7326 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86619756284D87C3006E7326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86619759284D87C3006E7326 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86619765284D88DE006E7326 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		86619767284D8929006E7326 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		86619769284D8ACF006E7326 /* MyApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp_iOSApp.swift; sourceTree = "<group>"; };
 		8661976F284D8EA8006E7326 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		86619771284D8F10006E7326 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		86619760284D8833006E7326 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				86619767284D8929006E7326 /* Model.swift */,
+				3B30BA62286FC4FB00D8F8C9 /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86619766284D88DE006E7326 /* AppState.swift in Sources */,
+				3B30BA63286FC4FB00D8F8C9 /* Pokemon.swift in Sources */,
 				3B30BA492867583700D8F8C9 /* MainView.swift in Sources */,
 				3B30BA4D286771B800D8F8C9 /* SigninView.swift in Sources */,
 				86619772284D8F10006E7326 /* LaunchView.swift in Sources */,
@@ -304,7 +305,6 @@
 				86619755284D87C1006E7326 /* ContentView.swift in Sources */,
 				3B30BA502867867B00D8F8C9 /* SingUpView.swift in Sources */,
 				3B30BA4128583DAD00D8F8C9 /* HomeButtonView.swift in Sources */,
-				86619768284D8929006E7326 /* Model.swift in Sources */,
 				8661976A284D8ACF006E7326 /* MyApp_iOSApp.swift in Sources */,
 				3B30BA3F2858335600D8F8C9 /* CardView.swift in Sources */,
 				86619770284D8EA8006E7326 /* HomeViewModel.swift in Sources */,
